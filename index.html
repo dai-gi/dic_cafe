@@ -6,12 +6,11 @@
   <title>DIC cafe</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-  <!-- body要素の中を考えて埋めてみよう -->
-  <header id="#top">
+  <header>
     <a href="index.html">
       <img src="images/sample_logo_k.png">
     </a>
@@ -36,8 +35,10 @@
   </header>
   <section>
     <article class="section_inner">
-      <h1>CONCEPT</h1>
-      <p>DIC Coffeeのこだわり</p>
+      <div class="section_title">
+        <h1>CONCEPT</h1>
+        <p>DIC Coffeeのこだわり</p>
+      </div>
       <p>
         "DIC Coffeeのコーヒーはルワンダ産のコーヒー豆<strong>「DIC Beans」</strong>を使用しています。<br>
         直接契約したコーヒー農家から仕入れております。<br>
@@ -47,9 +48,11 @@
       <img src="images/sample_concept.jpg" width="100px">
     </article>
     <article class="section_inner">
-      <h1>MENU</h1>
+      <h1 class="section_title">MENU</h1>
       <section>
-        <h1 class="menu_title">Recommended menu</h1>
+        <div class="center">
+          <h1 class="menu_title">Recommended menu</h1>
+        </div>
         <ul>
           <li>
             <h2>ブルーベリーパンケーキ</h2>
@@ -66,7 +69,9 @@
         </ul>
       </section>
       <section>
-        <h1>Coffee menu</h1>
+        <div class="center">
+          <h1 class="menu_title">Coffee menu</h1>
+        </div>
         <ul>
           <li>
             <h2>ブレンドコーヒー</h2>
@@ -92,7 +97,10 @@
       </section>
     </article>
     <article class="section_inner">
-      <h1>ACCESS</h1>
+      <div class="section_title">
+        <h1>ACCESS</h1>
+        <p>店舗情報</p>
+      </div>
       <section>
         <dl>
           <dt>営業時間</dt>
