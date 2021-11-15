@@ -34,3 +34,8 @@
 .center {
     text-align: center;
 }
+
+.caffee_menu_image {
+    width: 20%;
+    border-radius: 100%;
+}
