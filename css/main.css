@@ -45,6 +45,9 @@
     height: 60px;
     justify-content: space-between;
     align-items: stretch;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .global_nav {
