@@ -39,3 +39,17 @@
     width: 20%;
     border-radius: 100%;
 }
+
+.header_nav {
+    background: rgba(0, 0, 0, .6);
+}
+
+.global_nav_item {
+    display: block;
+    color: #fff;
+}
+
+.global_nav_item:hover {
+    background-color: #fff;
+    color: #42210b;
+}
