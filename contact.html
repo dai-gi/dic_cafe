@@ -4,31 +4,35 @@
 <head>
   <meta charset="UTF-8">
   <title>DIC cafe</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <nav>
-      <a href="index.html">
+    <nav class="header_nav">
+      <a class="logo" href="index.html">
         <img src="images/sample_logo_k.png">
       </a>
-      <!-- グローバルナビゲーション -->
-      <ul>
-        <a href="index.html">
+      <ul class="global_nav">
+        <a href="index.html" class="global_nav_item">
           <li>Home</li>
         </a>
-        <a href="#">
+        <a href="#" class="global_nav_item">
           <li>Menu</li>
         </a>
-        <a href="contact.html">
+        <a href="contact.html" class="global_nav_item">
           <li>Content</li>
         </a>
       </ul>
     </nav>
   </header>
-  <section>
-    <h1>CONTACT</h1>
-    <p>お問い合わせ</p>
+  <section class="section-inner">
+    <div class="section_title">
+      <h1>CONTACT</h1>
+      <p>お問い合わせ</p>
+    </div>
     <table border="1">
       <tbody>
         <tr>
@@ -52,25 +56,26 @@
   </section>
   <footer class="footer">
     <nav>
-      <!-- ナビゲーション -->
-      <ul>
-        <a href="index.html">
+      <ul class="footer_nav">
+        <a href="index.html" class="footer_nav_item">
           <li>Home</li>
         </a>
-        <a href="#">
+        <a href="#" class="footer_nav_item">
           <li>Menu</li>
         </a>
-        <a href="contact.html">
+        <a href="contact.html" class="footer_nav_item">
           <li>Content</li>
         </a>
+        <a href="index.html">
+          <li>
+            <img src="images/sample_logo_w.png">
+          </li>
+        </a>
       </ul>
-      <a href="index.html">
-        <img src="images/sample_logo_w.png">
-      </a>
-      <p>
-        <small>© DIVE INTO CODE Corp. ALL RIGHTS RESERVED.</small>
-      </p>
     </nav>
+    <p class="footer_right">
+      <small>© DIVE INTO CODE Corp. ALL RIGHTS RESERVED.</small>
+    </p>
   </footer>
 </body>
 

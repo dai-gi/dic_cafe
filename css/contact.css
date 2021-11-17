@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+.header_nav {
+    background: linear-gradient(90deg, #fff 20%, rgba(0, 0, 0, 0.6) 60%);
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: stretch;
+    top: 0;
+    width: 100%;
+}
+
+.global_nav {
+    display: flex;
+    align-items: stretch;
+}
+
+.global_nav_item {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.global_nav_item:hover {
+    background-color: #fff;
+    color: #42210b;
+}
+
+.logo {
+    width: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.section_inner {
+    padding: 50px 10% 30px;
+}
+
+.section_title {
+    font-family: "Noto Serif JP", serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
