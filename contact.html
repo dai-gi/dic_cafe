@@ -33,26 +33,40 @@
       <h1>CONTACT</h1>
       <p>お問い合わせ</p>
     </div>
-    <table border="1">
-      <tbody>
-        <tr>
-          <td>お名前</td>
-          <td>空欄</td>
+    <form action="#" method="POST">
+      <table class="contact">
+        <tr class="contact_line">
+          <td class="contact_sign"><label for="name">お名前</label></td>
+          <td class="contact_input"><input type="" name="name" id="name"></td>
         </tr>
-        <tr>
-          <td>ご連絡先</td>
-          <td>空欄</td>
+        <tr class="contact_line">
+          <td class="contact_sign"><label for="phonenumber">ご連絡先</label></td>
+          <td class="contact_input"><input type="" name="phonenumber" id="phonenumber"></td>
         </tr>
-        <tr>
-          <td>お住まいの地域</td>
-          <td>空欄</td>
+        <tr class="contact_line">
+          <td class="contact_sign"><label for="region">お住まいの地域</label></td>
+          <td>
+            <select name="region" id="region">
+              <option value="1">北海道</option>
+              <option value="2">東北</option>
+              <option value="3">関東</option>
+              <option value="4">中部</option>
+              <option value="5">近畿</option>
+              <option value="6">中国・四国</option>
+              <option value="7">九州</option>
+            </select>
+          </td>
         </tr>
-        <tr>
-          <td>内容</td>
-          <td>空欄</td>
+        <tr class="contact_content">
+          <td class="contact_sign"><label for="content">内容</label></td>
+          <td class="contact_input"><textarea type="" name="content" id="content"></textarea></td>
         </tr>
-      </tbody>
-    </table>
+      </table>
+      <div class="contact_btn_area">
+        <button type="reset" class="contact_btn reset_btn">リセット</button>
+        <button type="submit" class="contact_btn submit_btn">送信する</button>
+      </div>
+    </form>
   </section>
   <footer class="footer">
     <nav>
