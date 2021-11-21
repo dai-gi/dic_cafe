@@ -123,13 +123,13 @@ li {
     text-align: center;
 }
 
-/* recommended menu */
 .menu_list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
+/* recommended menu */
 .menu_list_card {
     display: flex;
     width: 49%;
@@ -163,7 +163,33 @@ li {
 }
 
 /* coffee menu */
-.caffee_menu_image {
+.coffee_menu {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.menu_list_item {
+    display: flex;
+    width: 49%;
+    margin: 20px 0;
+}
+
+.list_item_image {
+    height: 70px;
     width: 20%;
-    border-radius: 50%;
+    margin: 6px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.item_txt {
+    width: 80%;
+    margin-left: 8px;
+    font-size: 1rem;
+}
+
+.item_title {
+    margin: 20px 0;
+    font-family: "Noto Serif JP", serif;
+    font-size: 1.15rem;
 }
