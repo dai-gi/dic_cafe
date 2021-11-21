@@ -91,6 +91,20 @@ li {
     margin-bottom: 50px;
 }
 
+/* concept */
+.concept_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.concept_content p {
+    width: 60%;
+}
+
+.concept_content img {
+    width: 35%;
+}
+
 /* menu */
 .menu_title {
     display: inline-block;
