@@ -123,10 +123,46 @@ li {
     text-align: center;
 }
 
+/* recommended menu */
 .menu_list {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
+.menu_list_card {
+    display: flex;
+    width: 49%;
+    box-shadow: 2px 2px 5px #6b6b6b;
+}
+
+.card_img {
+    height: 300px;
+    width: 55%;
+    object-fit: cover;
+}
+
+.card_txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    line-height: 1.5;
+}
+
+.card_title {
+    font-size: 1.2rem;
+    font-family: "Noto Serif JP", serif;
+}
+
+.card_price {
+    text-align: right;
+    font-size: 1.1rem;
+    color: #574a0f;
+}
+
+/* coffee menu */
 .caffee_menu_image {
     width: 20%;
     border-radius: 50%;
