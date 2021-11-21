@@ -133,6 +133,7 @@ li {
 .menu_list_card {
     display: flex;
     width: 49%;
+    margin-bottom: 58px;
     box-shadow: 2px 2px 5px #6b6b6b;
 }
 
