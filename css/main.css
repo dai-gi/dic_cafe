@@ -106,6 +106,10 @@ li {
 }
 
 /* menu */
+.menu_section {
+    background: url(../images/sample_menu_bg.jpg) no-repeat bottom fixed;
+}
+
 .menu_title {
     display: inline-block;
     font-family: "Noto Serif JP", serif;
