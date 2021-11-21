@@ -68,6 +68,8 @@ li {
 }
 
 .key {
+    display: flex;
+    align-items: center;
     height: 500px;
     background: center / cover no-repeat url("../images/sample_key.jpg");
     font-family: "Noto Serif JP", serif;
