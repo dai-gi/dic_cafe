@@ -123,6 +123,10 @@ li {
     text-align: center;
 }
 
+.menu_list {
+    display: flex;
+}
+
 .caffee_menu_image {
     width: 20%;
     border-radius: 50%;
