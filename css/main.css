@@ -73,13 +73,13 @@ li {
 .key {
     display: flex;
     align-items: center;
-    height: 500px;
+    height: 420px;
     background: center / cover no-repeat url("../images/sample_key.jpg");
     font-family: "Noto Serif JP", serif;
-    font-weight: bold;
 }
 
-.key h1 {
+.header_title {
+    margin: 0 0 10px;
     font-size: 2.5rem;
 }
 
@@ -200,6 +200,10 @@ li {
 }
 
 /* access */
+.access_section {
+    margin-bottom: 40px;
+}
+
 .shop_detail {
     display: flex;
 }
@@ -212,6 +216,7 @@ li {
     width: 100%;
 }
 
+/* footer */
 .footer {
     display: flex;
     justify-content: center;
